@@ -5,14 +5,17 @@ const TodoInput = ({ addTodo }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        addTodo(text)
-        setText('')
+        if (text.trim() !== '') {
+            addTodo(text)
+            setText('')
+        }else{
+            alert('Please enter a task first')
+        }
     }
 
     return (
         <form onSubmit={handleSubmit}>
             <input type="text" value={text} onChange={(myEvent) => {
-                console.log(myEvent.target.value)
                 setText(myEvent.target.value)
             }} />
             <button className={style["sumbit"]}  type="submit">Add</button>

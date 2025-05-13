@@ -1,4 +1,16 @@
 .done{
-
-    color:green
+    background-color: #4c50af;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        margin-right: 0.5rem;
+}
+.delete{
+    background-color: #af4c52;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        margin-right: 0.5rem;
 }

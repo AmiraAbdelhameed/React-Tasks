@@ -17,9 +17,12 @@ const TodoApp = () => {
     }
 
     const deleteTodo = (idx) => {
-        const newTodos = [...todos]
-        newTodos.splice(idx, 1)
-        setTodos(newTodos)
+      let deleteConfirm =   confirm("are you sure")
+      if(deleteConfirm){
+          const newTodos = [...todos]
+          newTodos.splice(idx, 1)
+          setTodos(newTodos)
+      }
     }
 
     return (
@@ -29,7 +32,6 @@ const TodoApp = () => {
                 <TodoInput addTodo={addTodo} />
                 <ul>
                     {todos.map((todo, idx) => {
-                        console.log(uuid());
                         return <TodoItem
                             key={uuid()}
                             todo={todo}
