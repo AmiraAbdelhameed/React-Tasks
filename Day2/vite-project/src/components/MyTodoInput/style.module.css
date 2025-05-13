@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+form input {
+    width: 70%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #e7e6e6;
+}
+.sumbit{
+    background-color: #4c50af;
+    padding: 0.8rem 2rem ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}

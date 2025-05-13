@@ -1,0 +1,19 @@
+.body{
+    margin: 2rem auto;
+    width: 80%;
+}
+ul {
+    list-style: none;
+}
+
+li{
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
