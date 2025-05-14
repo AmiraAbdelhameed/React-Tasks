@@ -1,0 +1,19 @@
+
+.nav{
+padding: 1rem;
+margin-bottom: 2rem;
+background-color: #874779;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 6rem;
+}
+.nav ul li a{
+    color: white;
+}
+
