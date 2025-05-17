@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import style from './style.module.css';
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMovies } from "../../reduxtk/slices/movieSlice";
+import { fetchMovies } from "../../reduxtoolkit/slices/movieSlice";
 
 const MovieList = () => {
     const dispatch = useDispatch()

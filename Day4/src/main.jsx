@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css'
 import MovieList from './components/Movie/MovieList.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import store from './reduxtk/store.js';
+import store from './reduxtoolkit/store.js';
 import User from './components/User/user.jsx';
 import { Provider } from 'react-redux';
 

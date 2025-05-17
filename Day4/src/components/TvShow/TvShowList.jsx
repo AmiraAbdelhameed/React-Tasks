@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchTvShows } from "../../reduxtk/slices/tvShowSlice";
+import { fetchTvShows } from "../../reduxtoolkit/slices/tvShowSlice";
 import style from './style.module.css';
 const TvShowList = () => {
     const dispatch = useDispatch();

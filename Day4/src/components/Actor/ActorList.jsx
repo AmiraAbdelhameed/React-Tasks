@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchActors } from "../../reduxtk/slices/actorSlice";
+import { fetchActors } from "../../reduxtoolkit/slices/actorSlice";
 import style from './style.module.css';
 const ActorList = () => {
     const dispatch = useDispatch();
