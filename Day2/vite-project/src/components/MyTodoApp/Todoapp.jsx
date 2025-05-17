@@ -33,7 +33,8 @@ const TodoApp = () => {
                 <ul>
                     {todos.map((todo, idx) => {
                         return <TodoItem
-                            key={uuid()}
+                            key={idx} 
+                            // key={uuid()}
                             todo={todo}
                             index={idx}
                             deleteTodo={deleteTodo}
